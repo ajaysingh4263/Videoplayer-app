@@ -1,0 +1,35 @@
+.Footer{
+    padding: 30px 4%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.Footer-icon{
+    display: flex;
+    gap:20px;
+    margin: 40px 0;
+}
+.Footer-icon img{
+    width: 30px;
+    cursor: pointer;
+}
+.Footer ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+.copyright-Text{
+    color: gray;
+    font-size: 14px;
+}
+@media(max-width:800px){
+    .Footer-icon  img{
+        width: 20px;
+    }
+    .Footer  ul{
+        grid-template-columns: auto auto;
+        gap: 2px;
+        font-size: 10px;
+    }
+}
